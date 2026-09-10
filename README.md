@@ -6,7 +6,7 @@ In the `./library/strategies` directory, this repository implements 7 strategies
 
 The dataset for doing the experiments is provided on Hugging Face (see below).
 
-## Create the environment
+## Creation of the environment
 
 1. Create a python environment (e.g. using `conda`) and install Flower:
     ```bash
