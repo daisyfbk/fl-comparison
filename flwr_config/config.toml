@@ -1,0 +1,12 @@
+[superlink]
+default = "local"
+
+[superlink.supergrid]
+address = "supergrid.flower.ai"
+
+[superlink.local]
+address = ":local:"
+
+[superlink.local-deployment]
+address = "127.0.0.1:9093"
+insecure = true
