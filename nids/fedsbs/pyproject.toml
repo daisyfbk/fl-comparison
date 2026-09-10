@@ -23,7 +23,7 @@ serverapp = "tf_fedsbs.server_app:app"
 clientapp = "tf_fedsbs.client_app:app"
 
 [tool.flwr.app.config]
-client_names = "00-WebDDoS,01-LDAP,02-Portmap"
+client_names = "00-WebDDoS,01-LDAP,02-Portmap,03-DNS,04-UDPLag,05-NTP,06-SNMP,07-SSDP,08-Syn,09-TFTP,10-UDP,11-NetBIOS,12-MSSQL,13-LOIC,14-HOIC"
 fraction-train = 0.5
 proximal_mu = 1.0
 epsilon = 1.0

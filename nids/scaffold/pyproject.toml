@@ -23,7 +23,7 @@ serverapp = "tf_scaffold.server_app:app"
 clientapp = "tf_scaffold.client_app:app"
 
 [tool.flwr.app.config]
-client_names = "00-WebDDoS,01-LDAP,02-Portmap"
+client_names = "00-WebDDoS,01-LDAP,02-Portmap,03-DNS,04-UDPLag,05-NTP,06-SNMP,07-SSDP,08-Syn,09-TFTP,10-UDP,11-NetBIOS,12-MSSQL,13-LOIC,14-HOIC"
 fraction-train = 0.5
 global_learning_rate = 1.0
 rounds = 5

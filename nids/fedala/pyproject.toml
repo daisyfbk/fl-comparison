@@ -23,7 +23,7 @@ serverapp = "tf_fedala.server_app:app"
 clientapp = "tf_fedala.client_app:app"
 
 [tool.flwr.app.config]
-client_names = "00-WebDDoS,01-LDAP,02-Portmap"
+client_names = "00-WebDDoS,01-LDAP,02-Portmap,03-DNS,04-UDPLag,05-NTP,06-SNMP,07-SSDP,08-Syn,09-TFTP,10-UDP,11-NetBIOS,12-MSSQL,13-LOIC,14-HOIC"
 fraction-train = 0.5
 ala_sample_ratio = 0.8
 ala_trainable_layers = 1

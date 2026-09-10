@@ -23,7 +23,7 @@ serverapp = "tf_dafl.server_app:app"
 clientapp = "tf_dafl.client_app:app"
 
 [tool.flwr.app.config]
-client_names = "00-WebDDoS,01-LDAP,02-Portmap"
+client_names = "00-WebDDoS,01-LDAP,02-Portmap,03-DNS,04-UDPLag,05-NTP,06-SNMP,07-SSDP,08-Syn,09-TFTP,10-UDP,11-NetBIOS,12-MSSQL,13-LOIC,14-HOIC"
 rounds = 5
 epochs = 1
 dafl_threshold = 0.6
