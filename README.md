@@ -1,4 +1,4 @@
-# Comparison of Federated Learning Algorithms for Cybersecurity under Non-IID and Unbalanced Settings
+# Comparison of Federated Learning Strategies for Cybersecurity under Non-IID and Unbalanced Settings
 This repository contains the code and experiments for our systematic evaluation of Federated Learning (FL) methods applied to intrusion detection in the context of DDoS attacks. These methods have been specifically designed to tackle heterogeneous FL scenarios, where the training data is non-independent and identically distributed (non-i.i.d) and unbalanced across the clients.
 
 The evaluation includes Federated Averaging (FedAVG), the original FL algorithm proposed by McMahan et al., which is used as a baseline, three general purpose FL algorithms and three FL algorithms specifically designed for cybersecurity tasks.
